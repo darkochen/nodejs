@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://root:1qaz2wsx@10.126.0.7:27017/";
+var url = "mongodb://root:1qaz2wsx@127.0.0.1:27017/";
 
 module.exports.customers=function(callback){
     MongoClient.connect(url, function(err, db) {
