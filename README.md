@@ -2,19 +2,19 @@ This is a very basic sample of how to *create*, *update*, *delete* and *get data
 
 # How to use
   - to start the server with function get data list and display 
-      ```sh
+      ```
       node monjadeserver.js 
       ```
   - to create new data 
-    ```sh
+    ```
     node moncreate.js 
     ```
   - to update existed data
-    ```sh
+    ```
     node monupdate.js
     ```
   - to delete specific data
-    ```sh
+    ```
     node mondelete.js
     ```
 
